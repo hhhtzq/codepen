@@ -1,0 +1,104 @@
+mod {
+  width: 800px;
+  height: 600px;
+}
+.mod .container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  background-image: linear-gradient(to left, rgba(228, 227, 229, 1), rgba(212, 211, 213, 1));
+  width: 800px;
+  height: 600px;
+}
+.mod .layerWrap {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 189px;
+  width: 356px;
+  height: 230px;
+}
+.mod .layer {
+  position: relative;
+  width: 356px;
+  height: 230px;
+}
+.mod .icon {
+  position: absolute;
+  top: 25px;
+  left: 33px;
+  width: 38px;
+  height: 48px;
+}
+.mod .marisaRobertson {
+  position: absolute;
+  top: 134px;
+  left: 34px;
+  opacity: 1;
+  line-height: 21px;
+  letter-spacing: 0.22;
+  color: #6d6d6d;
+  font-size: 15px;
+  font-weight: 500;
+}
+.mod .wrap {
+  display: flex;
+  position: absolute;
+  top: 113px;
+  right: 36px;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 53px;
+  height: 37px;
+}
+.mod .largeIcon {
+  position: absolute;
+  top: 0px;
+  align-self: center;
+  width: 53px;
+  height: 37px;
+}
+.mod .empty {
+  box-sizing: border-box;
+  box-shadow: inset -1.5px 1.5px 1px rgba(227, 227, 227, 0.50);
+  position: relative;
+  margin-top: 4px;
+  margin-left: 29px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  border-color: rgba(151, 151, 151, 1.00);
+  background-image: linear-gradient(to left, rgba(203, 203, 203, 1), rgba(159, 159, 159, 1));
+  width: 20px;
+  height: 9px;
+}
+.mod .div {
+  box-sizing: border-box;
+  box-shadow: inset -1.5px 1.5px 1px rgba(227, 227, 227, 0.50);
+  position: relative;
+  margin-top: 1px;
+  margin-left: 29px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  border-color: rgba(151, 151, 151, 1.00);
+  background-image: linear-gradient(to left, rgba(203, 203, 203, 1), rgba(159, 159, 159, 1));
+  width: 20px;
+  height: 9px;
+}
+.mod .empty_2 {
+  box-sizing: border-box;
+  box-shadow: inset -1.5px 1.5px 1px rgba(227, 227, 227, 0.50);
+  position: relative;
+  margin-top: 1px;
+  margin-left: 29px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  border-color: rgba(151, 151, 151, 1.00);
+  background-image: linear-gradient(to left, rgba(203, 203, 203, 1), rgba(159, 159, 159, 1));
+  width: 20px;
+  height: 9px;
+}
